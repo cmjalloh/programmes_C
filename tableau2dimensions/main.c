@@ -1,4 +1,4 @@
-//  Tableaux � 2 dimensions
+//  Tableaux a 2 dimensions
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,7 +18,7 @@ printTab(tab,7);
 tab = realloc(tab,4 * sizeof(int));
 printTab(tab,4);
 */
-int C = 2, L = 3, i, j;
+int C = 4, L = 6, i, j;
 /* //tableau statique � 2 dimensions
 int tab[L][C];
 for(i=0;i<L;i++)
@@ -47,9 +47,9 @@ for(i = 0; i < L; i++)
 // parcours
  for(i = 0; i < L ; i++)
   {
-    for(j = 0;j < C; j++)
+    for(j = 0; j < C; j++)
     {
-      tab[i][j] = i+j;
+      tab[i][j] = i*j;
     }
   }
 // parcours et affichage
@@ -61,7 +61,7 @@ for(i = 0; i < L; i++)
    }
   printf("\n");
  }
-// lib�ration
+// liberation
 for(i = 0;i < L; i++)
     {
       free(tab[i]);
@@ -69,7 +69,6 @@ for(i = 0;i < L; i++)
 free(tab);
 return 0;
 }
-
 
 void getAdrVal(int *tab,int size)
 {
