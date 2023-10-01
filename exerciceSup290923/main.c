@@ -52,6 +52,7 @@ int *genTab(int size)
     for(i=0;i<size;i++)
     {
         tab[i] = rand()%100;
+    
     }
 return tab;
 }

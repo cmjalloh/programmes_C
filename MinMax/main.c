@@ -12,7 +12,6 @@ void trouverMinEtMax(double num1, double num2, double num3, double *min, double 
     if (num3 < *min) {
         *min = num3;
     }
-
     if (num2 > *max) {
         *max = num2;
     }
@@ -20,13 +19,16 @@ void trouverMinEtMax(double num1, double num2, double num3, double *min, double 
         *max = num3;
     }
     else
+    {
 
+        printf("Desole");
+    }
 }
 
 int main() {
     double num1, num2, num3;
 
-    // Demande � l'utilisateur de saisir les trois nombres
+    // Demande a l'utilisateur de saisir les trois nombres
     printf("Entrez le premier nombre : ");
     scanf("%lf", &num1);
 
