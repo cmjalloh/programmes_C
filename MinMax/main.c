@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // Definition de la fonction qui trouve le minimum et le maximum
-void trouverMinEtMax(double num1, double num2, double num3, double *min, double *max) {
+void trouverMinEtMax(double num1, double num2, double num3, double *min, double *max)
+ {
     *min = num1;
     *max = num1;
 
@@ -18,6 +19,8 @@ void trouverMinEtMax(double num1, double num2, double num3, double *min, double 
     if (num3 > *max) {
         *max = num3;
     }
+    else
+
 }
 
 int main() {
@@ -27,10 +30,10 @@ int main() {
     printf("Entrez le premier nombre : ");
     scanf("%lf", &num1);
 
-    printf("Entrez le deuxi�me nombre : ");
+    printf("Entrez le deuxieme nombre : ");
     scanf("%lf", &num2);
 
-    printf("Entrez le troisi�me nombre : ");
+    printf("Entrez le troisieme nombre : ");
     scanf("%lf", &num3);
 
     double min, max;
