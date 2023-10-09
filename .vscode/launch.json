@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Utilisateur/Desktop/Labo2-C/exerciceSup290923",
-      "program": "c:/Users/Utilisateur/Desktop/Labo2-C/exerciceSup290923/build/Debug/outDebug",
+      "cwd": "d:/Git/programmes_C/MinMax",
+      "program": "d:/Git/programmes_C/MinMax/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
