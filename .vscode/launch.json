@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Git/programmes_C/MinMax",
-      "program": "d:/Git/programmes_C/MinMax/build/Debug/outDebug",
+      "cwd": "d:/Git/programmes_C/tableau2dimensions",
+      "program": "d:/Git/programmes_C/tableau2dimensions/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
