@@ -1,12 +1,10 @@
 /* Ecrire une fonction qui admet 10 notes en paramètres et qui affiche la moyenne et la
 mention. La fonction retournera ensuite la moyenne.
 Exemple : Refusé < 10 | Passable < 12 | Assez bien < 14 | Bien < 16 | Très bien > 16 */
-
 // 10/10/2023 @ M@lick jalloh - 
 
 #include <stdio.h>
 #include <stdlib.h>
-
 
 float moyenneNotes(float tab[], int taille);
 char* mension(float moyenne);
