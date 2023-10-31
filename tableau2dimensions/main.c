@@ -19,7 +19,7 @@ tab = realloc(tab,4 * sizeof(int));
 printTab(tab,4);
 */
 int C = 2, L = 3, i, j;
-/* //tableau statique � 2 dimensions
+//tableau statique a 2 dimensions
 int tab[L][C];
 for(i=0;i<L;i++)
  {
@@ -36,8 +36,8 @@ for(i=0;i<L;i++)
   }
 printf("\n");
  }
-*/
-// declaration et allocation tableau dynamique à 2 dimensions
+
+// declaration et allocation tableau dynamique a 2 dimensions
 
 int **tab = malloc(L * sizeof(int*));
 for(i = 0; i < L; i++)
